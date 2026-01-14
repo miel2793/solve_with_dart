@@ -9,6 +9,6 @@ main()
     dynamic sifat ="MD: sifat Akon";
      print(sifat.runtimeType);
      sifat=4.67;
-  print(sifat.runtimeType);
+    print(sifat.runtimeType);
 
 }
