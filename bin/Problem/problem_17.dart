@@ -7,6 +7,6 @@ main()
           continue;
         }
       print(i);
-
+// nhdm  dh  mie  i d hf b  mie   h dbh f
     }
 }
