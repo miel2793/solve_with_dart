@@ -10,5 +10,13 @@ main()
      print(sifat.runtimeType);
      sifat=4.67;
     print(sifat.runtimeType);
+     int a= 26;
+      String d= ' sifat';
+      print('${a}${d}');
+
+       final DateTime  ct= DateTime.now();
+       print(ct);
+
+
 
 }
