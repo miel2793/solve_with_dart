@@ -12,5 +12,6 @@ main()
   print(d);
 
   print(v);
+  print(c.contains("Mahmud"));
 
 }
