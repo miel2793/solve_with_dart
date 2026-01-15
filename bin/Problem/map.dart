@@ -6,6 +6,6 @@ main()
         'ID': "20234103368",
         "Department": " Cse "
       };
-  print( masifa['Name']);
+  print( masifa);
 
 }
