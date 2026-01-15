@@ -6,7 +6,7 @@ main()
 
 print(a);
 List<dynamic> miel = ['miel',34,3.56,'ertf'];
-print(miel.runtimeType);
+print(miel[3]);
 
 
 }
