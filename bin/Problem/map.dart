@@ -25,10 +25,15 @@ main()
     {'Name':'Emon','Product':'Banana',"Quantity":'50'},
   ];
 
-  for(int i=0;i<miel.length;i++)
+  for( dynamic order in miel)
+    {
+      print( order['Name']);
+    }
+
+ /* for(int i=0;i<miel.length;i++)
     {
       print('The Customer Name Is ${miel[i]['Name']}, purchased ${miel[i]['Product']}, and total quantity is ${miel[i]['Quantity']}');
-    }
+    }*/
 
 }
 
