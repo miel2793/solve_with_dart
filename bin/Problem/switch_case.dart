@@ -15,6 +15,10 @@ main()
 
        case 'Robin':
           print('Bad Boy');
+            break;
+       case ' Emon':
+         print(" Noster raja ");
+         break;
 
      }
 
