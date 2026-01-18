@@ -25,6 +25,6 @@
          return  a;
      }
 
-     //limda syntax
+     //limda syntax ||  arrow  function
 
      double   name ( double a  , double b )=>(a+b);
