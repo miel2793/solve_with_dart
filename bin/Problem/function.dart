@@ -1,15 +1,14 @@
- 
-  void  jd(int a,int b)
-  {
-     int  g = a*b;
-     print(g);
-
-  }
-     double
-
-
-main()
+ main()
  {
-   jd(3, 6);
+   sub(5, 10);
+   sum(5, 10);
 
  }
+   sum(int a,int b)
+   {
+     print(a+b);
+   }
+    sub(int a, int b)
+    {
+      print(a-b);
+    }
