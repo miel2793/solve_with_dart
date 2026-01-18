@@ -27,4 +27,4 @@
 
      //limda syntax ||  arrow  function
 
-     double   name ( double a  , double b )=>(a+b);
+        name  ( double a  , double b )=>(a+b);
