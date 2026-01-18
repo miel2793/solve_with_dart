@@ -5,6 +5,7 @@
 
 
     print('area is ${area(5, 5)}');
+     print(name(20, 30).toInt());
 
  }
    sum(int a,int b)
@@ -23,3 +24,7 @@
         double  a = length*width;
          return  a;
      }
+
+     //limda syntax
+
+     double   name ( double a  , double b )=>(a+b);
