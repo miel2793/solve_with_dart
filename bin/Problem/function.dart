@@ -28,4 +28,3 @@
      //limda syntax ||  arrow  function
 
         name  ( double a  , double b )=>(a+b);
- //
