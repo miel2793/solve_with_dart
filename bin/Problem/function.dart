@@ -28,4 +28,5 @@
      //limda syntax ||  arrow  function
 
         name  ( double a  , double b )=>(a+b);
+           ssub (double d,double v)=>(d-v);
 //
