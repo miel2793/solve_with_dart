@@ -2,17 +2,18 @@ import 'dart:io';
 class Student
  {
 
-   String ? name;
-    String ? dept;
-     int ? id;
-      int ? intake;
-      int?  section;
+   String   name ='miel mahmud sifat';
+   void show ()
+   {
+      print( 'my name is $name');
+   }
 
  }
  main()
  {
    Student  s = Student();
-   s.name ='Miel Mahmud Sifat';
+s.show();
+
    
    
    
