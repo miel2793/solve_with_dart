@@ -7,6 +7,7 @@ class Student
    {
       print( 'my name is $name');
    }
+   static  String  c='  hey';
 
  }
  main()
@@ -15,7 +16,7 @@ class Student
 s.show();
 
    
-   
+  print(Student.c);
    
 
 
