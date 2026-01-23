@@ -9,6 +9,9 @@ class Bank
            print(" The Bank Info");
 
         }
+        static String? institute;
+
+
 }
  main ()
  {
@@ -16,4 +19,7 @@ class Bank
      Bank fk =Bank('Tonmoy Tahmi', 20202658, "Bogura");
      print('Account Holder Name :${bk.holder}\nAccount no:${bk.acc}\nBranch:${bk.branch}\n\n');
      print('Account Holder Name :${fk.holder}\nAccount no:${fk.acc}\nBranch:${fk.branch}\n\n');
+     Bank.institute='BUBT';
+
+     print(Bank.institute);
  }
