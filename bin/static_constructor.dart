@@ -22,4 +22,5 @@ class Bank
      Bank.institute='BUBT';
 
      print(Bank.institute);
+     //
  }
