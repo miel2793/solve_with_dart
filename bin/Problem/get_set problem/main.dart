@@ -1,5 +1,5 @@
 
-import 'p1.dart';
+/*import 'p1.dart';
  main()
 {
 
@@ -9,5 +9,6 @@ import 'p1.dart';
 
   print(stu.getname);
 
-}
+}*/
+
 
