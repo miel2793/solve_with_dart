@@ -12,7 +12,7 @@ class   Ali
           return _price;
       }
 
-          void newprice ( int nprice)
+           set  newprice ( int nprice)
        {
           if ( nprice >= 0)
             {

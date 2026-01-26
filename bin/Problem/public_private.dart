@@ -5,7 +5,7 @@ main()
 {
   Ali a= Ali();
 
- a.newprice(330);
+ a.newprice =400;
   print(a.currentprice);
 
 }
