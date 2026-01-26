@@ -2,6 +2,10 @@ class Father
 {
      String ? land;
       String ? address;
+       void incomeSource()
+       {
+          print("  Farming ");
+       }
 
 
 
@@ -9,12 +13,23 @@ class Father
  class    Chulu  extends Father
 
  {
-    String ?  name;
+
+    @override
+  void incomeSource()
+    {
+      print('App Developer');
+    }
 
  }
   main()
   {
      Chulu  miel = Chulu();
+      Father   jakir = Father();
+
      print(miel.land=' 10 bigha');
+
+
+     miel.incomeSource();
+     jakir.incomeSource();
 
   }
