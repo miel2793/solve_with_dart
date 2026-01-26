@@ -19,11 +19,7 @@ class Father
 
  {
    
-   Chulu(super.name,super.address)
-   {
-     
-   }
-   
+   Chulu(super.name,super.address);
    @override
     String ? land ='15 bigha';
 
