@@ -8,7 +8,7 @@ class   Ali
         return _name;
      }
 
-      get ConcurrentModificationError{
+      get currentprice{
           return _price;
       }
 }
