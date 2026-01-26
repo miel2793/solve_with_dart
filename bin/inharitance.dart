@@ -13,6 +13,8 @@ class Father
  class    Chulu  extends Father
 
  {
+   @override
+    String ? land ='15 bigha';
 
     @override
   void incomeSource()
@@ -26,7 +28,7 @@ class Father
      Chulu  miel = Chulu();
       Father   jakir = Father();
 
-     print(miel.land=' 10 bigha');
+     print(miel.land);
 
 
      miel.incomeSource();
