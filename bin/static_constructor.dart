@@ -13,7 +13,31 @@ class Bank
     /// canva
 ///////
 
+
+
+
 }
+class Miel
+{
+
+    String ?  name;
+     int ? id;
+     String? dept;
+
+
+      Miel(this.name,this.id,this.dept)
+      {
+        print('Hello world');
+      }
+
+
+
+}
+
+
+
+
+
  main ()
  {
      Bank bk = Bank('Miel Mahmud Sifat ', 20234103368, 'Rupnagar');
@@ -24,4 +48,11 @@ class Bank
 
      print(Bank.institute);
      //
+
+    Miel mm = Miel("Miel Mahmud Sifat", 2023456, 'cse');
+    print(mm.name);
+
+    print(Bank.institute ='DCC');
+
+
  }
