@@ -42,4 +42,9 @@ class Father
      miel.incomeSource();
      jakir.incomeSource();
 
+
+     String  d ='bfhtpr';
+
+     print(d.length);
+
   }
